@@ -9,5 +9,9 @@
   "tags": "tool,alarm,timer",
   "supports": ["BANGLEJS2"],
   "dependencies": [],
-  "provides": ["widget.timer.js", "timer.boot.js"]
+  "provides": ["widget.timer.js", "timer.boot.js"],
+  "storage": [
+    {"name":"timer.app.js","url":"app.js"},
+    {"name":"timer.img","url":"app-icon.js","evaluate":true}
+  ]
 }
