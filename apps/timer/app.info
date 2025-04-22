@@ -1,0 +1,13 @@
+{
+  "id": "timer",
+  "name": "Timer",
+  "type": "app",
+  "icon": "icon.png",
+  "src": "app.js",
+  "version": "1.0",
+  "description": "A countdown timer with widget and background alarm support.",
+  "tags": "tool,alarm,timer",
+  "supports": ["BANGLEJS2"],
+  "dependencies": [],
+  "provides": ["widget.timer.js", "timer.boot.js"]
+}
